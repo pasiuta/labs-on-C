@@ -13,6 +13,8 @@ int main(int argc, char *argv[]) {
     printf("\n\t Put C value :");
     scanf("%f",&C);
 
+    printf("check");
+    
     if(B + square(C) == 0)
     {
         printf("ERROR!f\n");
