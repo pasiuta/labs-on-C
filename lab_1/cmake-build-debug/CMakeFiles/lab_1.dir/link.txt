@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/lab_1.dir/main.c.o CMakeFiles/lab_1.dir/dk_tool.c.o  -o lab_1 
