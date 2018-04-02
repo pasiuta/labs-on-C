@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dima/labs/2_semestr/labs-on-C/HW1/dk_tool.c
+stdio.h
+-
+dk_tool.h
+/home/dima/labs/2_semestr/labs-on-C/HW1/dk_tool.h
+
+/home/dima/labs/2_semestr/labs-on-C/HW1/dk_tool.h
+
+/home/dima/labs/2_semestr/labs-on-C/HW1/main.c
+stdio.h
+-
+dk_tool.h
+/home/dima/labs/2_semestr/labs-on-C/HW1/dk_tool.h
+
