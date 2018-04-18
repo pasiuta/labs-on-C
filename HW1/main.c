@@ -19,8 +19,13 @@ int main()
     {
         for(j = 0; j < length; j++)
         {
+
             printf("enter [%d][%d] the matrix size: ", i, j);
             scanf("%d", &firstmatrix[i][j]);
+
+            printf("enter [%i][%i] the matrix size: ", i, j);
+            scanf("%i", &firstmatrix[i][j]);
+
         }
     }
 
@@ -30,14 +35,20 @@ int main()
     {
         for(j = 0; j < length; j++)
         {
+
             printf("enter [%d][%d] the matrix size: ", i, j);
             scanf("%d", &secondmatrix[i][j]);
+
+            printf("enter [%i][%i] the matrix size: ", i, j);
+            scanf("%i", &secondmatrix[i][j]);
+
         }
     }
 
     additionmatrix(length, resultmatrix, firstmatrix, secondmatrix);                   //function for plus matrix
 
     printf("summa:\n\n");
+
 
 
     printmatrix(length,firstmatrix);

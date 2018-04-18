@@ -6,6 +6,8 @@
 #define HW1_DK_TOOL_H
 #include <stdio.h>
 
+
 void printmatrix(int length,int matrix[length][length]);
+
 void additionmatrix(int length, int resultmatrix[length][length], int firstmatrix[length][length], int secondmatrix[length][length]);
 #endif //HW1_DK_TOOL_H

@@ -3,6 +3,7 @@
 //
 
 #include "dk_tool.h"
+
 void printmatrix(int length,int matrix[length][length])
 {
     for(int i = 0; i < length; i++)                                           //matrix output
@@ -15,6 +16,7 @@ void printmatrix(int length,int matrix[length][length])
     }
     printf("\n");
 }
+
 void additionmatrix(int length, int resultmatrix[length][length], int fisrtmatrix[length][length], int secondmatrix[length][length])
 {
     int i = 0, j = 0;
