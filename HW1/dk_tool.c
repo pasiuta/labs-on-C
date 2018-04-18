@@ -3,8 +3,19 @@
 //
 
 #include "dk_tool.h"
-
-void subtractedmatrix(int length, int matrixC[length][length], int matrixA[length][length], int matrixB[length][length])
+void printmatrix(int length,int matrix[length][length])
+{
+    for(int i = 0; i < length; i++)                                           //matrix output
+    {
+        for(int j = 0; j < length; j++)
+        {
+            printf(" %d	", matrix[i][j]);
+        }
+        printf("\n");
+    }
+    printf("\n");
+}
+void additionmatrix(int length, int resultmatrix[length][length], int fisrtmatrix[length][length], int secondmatrix[length][length])
 {
     int i = 0, j = 0;
 
@@ -12,8 +23,8 @@ void subtractedmatrix(int length, int matrixC[length][length], int matrixA[lengt
     {
         for(j = 0; j < length; j++)
         {
-            matrixC[i][j] = 0;
-            matrixC[i][j] = matrixA[i][j] + matrixB[i][j];
+            resultmatrix[i][j] = 0;
+            resultmatrix[i][j] = fisrtmatrix[i][j] + secondmatrix[i][j];
         }
     }
 }

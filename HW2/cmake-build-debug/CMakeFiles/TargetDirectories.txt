@@ -1,0 +1,3 @@
+/home/dima/labs/2_semestr/labs-on-C/HW2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dima/labs/2_semestr/labs-on-C/HW2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dima/labs/2_semestr/labs-on-C/HW2/cmake-build-debug/CMakeFiles/HW2.dir

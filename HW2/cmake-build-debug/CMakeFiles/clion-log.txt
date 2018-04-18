@@ -1,0 +1,4 @@
+/home/dima/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/dima/labs/2_semestr/labs-on-C/HW2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dima/labs/2_semestr/labs-on-C/HW2/cmake-build-debug

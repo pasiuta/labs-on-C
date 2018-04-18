@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dima/labs/2_semestr/labs-on-C/HW2/dk_triangle.c
+dk_triangle.h
+/home/dima/labs/2_semestr/labs-on-C/HW2/dk_triangle.h
+stdio.h
+-
+stdlib.h
+-
+
+/home/dima/labs/2_semestr/labs-on-C/HW2/dk_triangle.h
+
+/home/dima/labs/2_semestr/labs-on-C/HW2/main.c
+stdio.h
+-
+dk_triangle.h
+/home/dima/labs/2_semestr/labs-on-C/HW2/dk_triangle.h
+
